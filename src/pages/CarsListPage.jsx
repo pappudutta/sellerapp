@@ -3,7 +3,7 @@ import Cards from "../components/Cards";
 
 const CarsListPage = () => {
   return (
-    <div className="max-w-[1230px] mx-auto my-8">
+    <div className="flex flex-wrap justify-center gap-5 mx-auto my-8">
       <Cards />
     </div>
   );
