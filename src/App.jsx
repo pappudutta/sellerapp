@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className=" w-full bg-blue-50">
+    <div className="w-full overflow-hidden bg-blue-50 px-4">
       <BrowserRouter>
         <Header />
         <Routes>

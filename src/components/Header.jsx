@@ -5,9 +5,9 @@ import { BiChevronDown } from "react-icons/bi";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
-      <main className=" mx-auto navbar py-2 min-w-fit">
-        <nav className="w-full flex gap-10 px-5 py-4 drop-shadow-md shadow-gray-50 bg-blue-50 border border-white rounded-2xl mx-4">
+    <div className="">
+      <main className="navbar mt-2 max-w-[1230px] mx-auto">
+        <nav className="w-full flex gap-10 px-5 py-4 drop-shadow-md shadow-gray-50 bg-blue-50 border border-white rounded-2xl">
           <div className="flex w-96 bg-white rounded-2xl px-1">
             <input
               type="search"

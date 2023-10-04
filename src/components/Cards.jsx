@@ -17,7 +17,7 @@ const Cards = () => {
   };
 
   return (
-    <div className="w-full my-10 mx-3">
+    <div className="w-full md:w-1/3 flex justify-center items-center">
       <div className="w-[330px] p-2 bg-sky-50 drop-shadow-lg border border-white rounded-2xl">
         <div>
           <Img src={CarImg} className="rounded-2xl" />
@@ -26,7 +26,7 @@ const Cards = () => {
         <div className=" mt-3 mx-3">
           <div className="flex items-center justify-between">
             <div className="text-2xl">Toyota Rav </div>
-            <div className="border border-dashed border-sky-400 px-2 py-0.5 rounded-xl">
+            <div className="text-sm border border-dashed border-sky-400 px-2 py-0.5 rounded-xl">
               2020
             </div>
           </div>
@@ -59,7 +59,7 @@ const Cards = () => {
             </div>
           </div>
           <hr className="h-px my-5 bg-gray-200 border-0"></hr>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center mb-3">
             <div className="text-xl">
               $440 <span className="text-sm text-gray-600">/ month</span>
             </div>
@@ -70,7 +70,7 @@ const Cards = () => {
               >
                 {isLiked ? <AiFillHeart /> : <AiOutlineHeart />}
               </span>
-              <button className="rounded-xl text-sm text-white bg-blue-400 py-1 px-3 hover:opacity-80">
+              <button className="rounded-xl text-sm text-white bg-blue-400 py-[5px] px-3 hover:opacity-80">
                 Rent now
               </button>
             </div>
