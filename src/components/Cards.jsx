@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Img from "./lazyloadImag/Img";
-import FallBackImg from "../assets/car1.jpg";
 
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { LiaGasPumpSolid } from "react-icons/lia";
@@ -8,6 +6,7 @@ import { GiSpeedometer } from "react-icons/gi";
 import { RiSteering2Fill } from "react-icons/ri";
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiFillHeart } from "react-icons/ai";
+import Carousel from "./imgCarousel/Carousel";
 
 const Cards = ({ item }) => {
   const {
@@ -28,20 +27,12 @@ const Cards = ({ item }) => {
     setIsLike(!isLike);
   };
 
-  console.log(image);
-
   return (
     <>
       {item && (
         <div className="w-[310px] md:w-1/3 max-w-[375px] bg-sky-50 drop-shadow-lg border border-white rounded-2xl p-2">
           <div>
-            {image.map((item, index) => (
-              <Img
-                key={index}
-                src={item || FallBackImg}
-                className="rounded-2xl"
-              />
-            ))}
+            <Carousel images={image} />
           </div>
 
           <div className=" mt-3 mx-3">
