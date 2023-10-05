@@ -19,7 +19,7 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
     <div>
       <div className="w-full flex justify-between items-center bg-sky-50 border border-white rounded-xl drop-shadow-xl px-4 py-3">
         <div className="text-gray-600">
-          {6} from {totalCars}
+          {totalCars > 6 ? 6 : totalCars} from {totalCars}
         </div>
         <div>
           <ul className="inline-flex space-x-2 text-sm">
@@ -29,13 +29,13 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
             >
               <BsArrowLeft />
             </li>
-            {[...Array(totalCars / 6)].map((_, i) => {
+            {[...Array(totalPage)].map((item, i) => {
               return (
                 <li
                   key={i}
                   onClick={() => selectedPageHandler(i + 1)}
                   className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white border border-white drop-shadow-md hover:bg-gray-300 hover:border-gray-300 ${
-                    currentPage === i + 1 ? "bg-gray-300 border-gray-300" : ""
+                    currentPage === i + 1 ? "bg-blue-300 border-blue-300" : ""
                   }`}
                 >
                   {i + 1}

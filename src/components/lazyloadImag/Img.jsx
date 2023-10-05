@@ -4,7 +4,12 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const Img = ({ src, className }) => {
   return (
     <div>
-      <LazyLoadImage className={className || ""} alt={""} src={src} />
+      <LazyLoadImage
+        style={{ width: "100%", height: "230px" }}
+        className={className || ""}
+        alt="Car images"
+        src={src}
+      />
     </div>
   );
 };

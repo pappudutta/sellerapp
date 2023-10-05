@@ -9,7 +9,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car1.jpeg", "/src/assets/asset1/car2.jpeg", "/src/assets/asset1/car3.jpeg"]
   },
   {
     "id": "002",
@@ -21,7 +21,7 @@
     "year": 2021,
     "mode": "Manual",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car4.jpeg", "/src/assets/asset1/car5.jpeg", "/src/assets/asset1/car6.jpeg"]
 
 
   },
@@ -35,7 +35,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car7.jpeg", "/src/assets/asset1/car8.jpeg", "/src/assets/asset1/car9.jpeg"]
 
   },
   {
@@ -48,7 +48,7 @@
     "year": 2022,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car10.jpeg", "/src/assets/asset1/car11.jpeg", "/src/assets/asset1/car12.jpeg"]
 
   },
   {
@@ -61,7 +61,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car13.jpeg", "/src/assets/asset1/car14.jpeg", "/src/assets/asset1/car15.jpeg"]
 
   },
   {
@@ -74,7 +74,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car16.jpeg", "/src/assets/asset1/car17.jpeg", "/src/assets/asset/car18.jpeg"]
 
   },
   {
@@ -87,7 +87,7 @@
     "year": 2019,
     "mode": "Manual",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car19.jpeg", "/src/assets/asset1/car20.jpeg", "/src/assets/asset1/car21.jpeg"]
 
   },
   {
@@ -100,7 +100,7 @@
     "year": 2022,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car22.jpeg", "/src/assets/asset1/car23.jpeg", "/src/assets/asset1/car24.jpeg"]
 
   },
   {
@@ -113,7 +113,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car25.jpeg", "/src/assets/asset1/car26.jpeg", "/src/assets/asset1/car27.jpeg"]
 
   },
   {
@@ -126,7 +126,7 @@
     "year": 2021,
     "mode": "Manual",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car28.jpeg", "/src/assets/asset1/car29.jpeg", "/src/assets/asset1/car30.jpeg"]
 
   },
   {
@@ -139,7 +139,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car31.jpeg", "/src/assets/asset1/car32.jpeg", "/src/assets/asset1/car33.jpeg"]
 
   },
   {
@@ -152,7 +152,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car34.jpeg", "/src/assets/asset1/car35.jpeg", "/src/assets/asset1/car36.jpeg"]
 
   },
   {
@@ -165,7 +165,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car1.jpeg", "/src/assets/asset1/car.jpeg", "/src/assets/asset1/car.jpeg"]
 
   },
   {
@@ -178,7 +178,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car37.jpeg", "/src/assets/asset1/car38.jpeg", "/src/assets/asset1/car39.jpeg"]
 
   },
   {
@@ -191,7 +191,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car40.jpeg", "/src/assets/asset1/car41.jpeg", "/src/assets/asset1/car42.jpeg"]
 
   },
   {
@@ -204,7 +204,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car43.jpeg", "/src/assets/asset1/car44.jpeg", "/src/assets/asset1/car45.jpeg"]
 
   },
   {
@@ -217,7 +217,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car46.jpeg", "/src/assets/asset1/car47.jpeg", "/src/assets/asset1/car48.jpeg"]
 
   },
   {
@@ -230,7 +230,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car59.jpeg", "/src/assets/asset1/car50.jpeg", "/src/assets/asset1/car51.jpeg"]
 
   },
   {
@@ -243,7 +243,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car52.jpeg", "/src/assets/asset1/car53.jpeg", "/src/assets/asset1/car53.jpeg"]
 
   },
   {
@@ -256,7 +256,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car55.jpeg", "/src/assets/asset1/car56.jpeg", "/src/assets/asset1/car58.jpeg"]
 
   },
   {
@@ -269,7 +269,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car71.jpeg", "/src/assets/asset1/car72.jpeg", "/src/assets/asset1/car73.jpeg"]
 
   },
   {
@@ -282,7 +282,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car77.jpeg", "/src/assets/asset1/car74.jpeg", "/src/assets/asset1/car75.jpeg"]
 
   },
   {
@@ -295,7 +295,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car83.jpeg", "/src/assets/asset1/car84.jpeg", "/src/assets/asset1/car85.jpeg"]
 
   },
   {
@@ -308,7 +308,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car88.jpeg", "/src/assets/asset1/car87.jpeg", "/src/assets/asset1/car89.jpeg"]
 
   },
   {
@@ -321,7 +321,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car90.jpeg", "/src/assets/asset1/car91.jpeg", "/src/assets/asset1/car91.jpeg"]
 
   },
   {
@@ -334,7 +334,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car93.jpeg", "/src/assets/asset1/car94.jpeg", "/src/assets/asset1/car95.jpeg"]
 
   },
   {
@@ -347,7 +347,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car96.jpeg", "/src/assets/asset1/car97.jpeg", "/src/assets/asset1/car98.jpeg"]
 
   },
   {
@@ -360,7 +360,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car721.jpeg", "/src/assets/asset1/car821.jpeg", "/src/assets/asset1/car921.jpeg"]
 
   },
   {
@@ -373,7 +373,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset1/car1.jpeg", "/src/assets/asset1/car.jpeg", "/src/assets/asset1/car.jpeg"]
 
   },
   {
@@ -386,7 +386,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset2/car6.jpeg", "/src/assets/asset2/car5.jpeg", "/src/assets/asset2/car4.jpeg"]
 
   },
   {
@@ -399,7 +399,7 @@
     "year": 2022,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset2/car12.jpeg", "/src/assets/asset1/car11.jpeg", "/src/assets/asset1/car13.jpeg"]
 
   },
   {
@@ -412,7 +412,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset2/car9.jpeg", "/src/assets/asset2/car8.jpeg", "/src/assets/asset2/car7.jpeg"]
 
   },
   {
@@ -425,7 +425,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset2/car10.jpeg", "/src/assets/asset2/car12.jpeg", "/src/assets/asset2/car13.jpeg"]
 
   },
   {
@@ -438,7 +438,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset2/car14.jpeg", "/src/assets/asset2/car15.jpeg", "/src/assets/asset2/car16.jpeg"]
 
   },
   {
@@ -451,7 +451,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset2/car17.jpeg", "/src/assets/asset2/car18.jpeg", "/src/assets/asset2/car19.jpeg"]
 
   },
   {
@@ -464,7 +464,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["./src/assets/asset1/asset 1.jpeg", "./src/assets/asset1/asset 2.jpeg", "./src/assets/asset1/asset 3.jpeg"]
+    "image": ["/src/assets/asset2/car20.jpeg", "/src/assets/asset2/car21.jpeg", "/src/assets/asset2/car22.jpeg"]
 
   }
 ]

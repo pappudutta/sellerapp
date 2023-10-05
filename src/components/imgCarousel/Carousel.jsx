@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Img from "../lazyloadImag/Img";
+import FallBackImg from "../../assets/car.jpg";
 
 import { BiSolidChevronRight, BiSolidChevronLeft } from "react-icons/bi";
 
@@ -44,7 +45,11 @@ const Carousel = ({ images }) => {
           </div>
 
           {images.slice(currentIndex, currentIndex + 1).map((item, index) => (
-            <Img key={index} src={item} className="rounded-2xl w-full" />
+            <Img
+              key={index}
+              src={item || FallBackImg}
+              className="rounded-2xl w-full"
+            />
           ))}
           <div className="absolute bottom-4 left-[50%] translate-x-[-50%] flex gap-2 items-center">
             {[...Array(images.length)].map((item, index) => (
