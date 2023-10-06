@@ -8,6 +8,7 @@ const Img = ({ src, className }) => {
         style={{ width: "100%", height: "230px" }}
         className={className || ""}
         alt="Car images"
+        effect="blur"
         src={src}
       />
     </div>
