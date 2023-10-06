@@ -8,7 +8,6 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { AiFillHeart } from "react-icons/ai";
 import Carousel from "./imgCarousel/Carousel";
 import { useDispatch, useSelector } from "react-redux";
-
 import { getJsonData } from "../features/cars/carsSlice";
 
 const Cards = ({ item }) => {
@@ -38,7 +37,6 @@ const Cards = ({ item }) => {
 
       const updatedCarsData = [...carsData];
       updatedCarsData[carIndex] = updatedCar;
-      // console.log(updatedCarsData);
 
       dispatch(getJsonData(updatedCarsData));
     }

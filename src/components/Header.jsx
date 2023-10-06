@@ -66,15 +66,17 @@ const Header = () => {
     });
     return (
       <div className="w-full absolute top-9 left-0 bg-white rounded-b-xl">
-        {filteredCars.map(item => (
-          <div
-            onClick={() => handleSearch(item.brand)}
-            key={item.id}
-            className="cursor-pointer w-full px-4 py-1"
-          >
-            {item.brand}
-          </div>
-        ))}
+        {filteredCars.map(item => {
+          return (
+            <div
+              onClick={() => handleSearch(item.brand)}
+              key={item.id}
+              className="cursor-pointer w-full px-4 py-1"
+            >
+              {item.brand}
+            </div>
+          );
+        })}
       </div>
     );
   };
