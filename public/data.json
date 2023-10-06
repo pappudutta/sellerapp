@@ -9,7 +9,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/1.jpeg", "/src/assets/carsImg/2.jpeg", "/src/assets/carsImg/3.jpeg"]
+    "image": ["/carsImg/1.jpeg", "/carsImg/2.jpeg", "/carsImg/3.jpeg"]
   },
   {
     "id": "002",
