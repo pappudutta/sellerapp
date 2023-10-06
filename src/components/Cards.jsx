@@ -2,12 +2,14 @@ import React from "react";
 
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { LiaGasPumpSolid } from "react-icons/lia";
-import { GiSpeedometer } from "react-icons/gi";
+import { GiLogging, GiSpeedometer } from "react-icons/gi";
 import { RiSteering2Fill } from "react-icons/ri";
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiFillHeart } from "react-icons/ai";
 import Carousel from "./imgCarousel/Carousel";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+
+import { getJsonData } from "../features/cars/carsSlice";
 
 const Cards = ({ item }) => {
   const {
@@ -22,15 +24,24 @@ const Cards = ({ item }) => {
     like,
   } = item;
 
+  const dispatch = useDispatch();
   const { carsData } = useSelector(state => state.home);
-  console.log(
-    carsData.map(item => {
-      item.like;
-    })
-  );
 
-  const handleLike = () => {
-    dispatch(getJsonData());
+  const handleLike = likeId => {
+    const carIndex = carsData.findIndex(car => car.id === likeId);
+
+    if (carIndex !== -1) {
+      const updatedCar = {
+        ...carsData[carIndex],
+        like: !like,
+      };
+
+      const updatedCarsData = [...carsData];
+      updatedCarsData[carIndex] = updatedCar;
+      // console.log(updatedCarsData);
+
+      dispatch(getJsonData(updatedCarsData));
+    }
   };
 
   return (
@@ -86,7 +97,7 @@ const Cards = ({ item }) => {
               </div>
               <div className="flex items-center gap-3">
                 <span
-                  onClick={() => {}}
+                  onClick={() => handleLike(item.id)}
                   className="text-[21px] text-blue-400 bg-blue-100 rounded-lg p-1 cursor-pointer hover:opacity-80"
                 >
                   {like ? <AiFillHeart /> : <AiOutlineHeart />}
