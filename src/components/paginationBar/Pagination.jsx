@@ -5,35 +5,83 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
   // Image carousel previous slide function
   const handlePrev = () => {
     if (currentPage === 1) return;
-    setCurrentPage(currentPage - 1);
+    setCurrentPage(prevPage => prevPage - 1);
   };
 
   // Image carousel next slide function
   const handleNext = () => {
     if (currentPage === totalPage) return;
-    setCurrentPage(currentPage + 1);
+    setCurrentPage(prevPage => prevPage + 1);
   };
 
-  // bottom line on click change image
-  const selectedPageHandler = selectedPage => {
-    setCurrentPage(selectedPage);
-  };
-
-  // to reuse can create as a component
+  // total page more then 6 pages then add dots in middle
   const renderPageNumber = () => {
-    return [...Array(totalPage)].map((item, i) => {
-      return (
+    const maxPageToShow = 5;
+
+    // Display all when pages less then 6 pages
+    if (totalPage <= maxPageToShow) {
+      return [...Array(totalPage)].map((item, i) => {
+        return (
+          <li
+            key={i}
+            onClick={() => selectedPageHandler(i + 1)}
+            className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 h ${
+              currentPage === i + 1 ? "bg-[#70b1ff] text-white" : ""
+            }`}
+          >
+            {i + 1}
+          </li>
+        );
+      });
+    } else {
+      const pageNumbers = [];
+
+      // display first two pages
+      for (let i = 0; i < 2; i++) {
+        pageNumbers.push(
+          <li
+            key={i}
+            onClick={() => setCurrentPage(i + 1)}
+            className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
+              currentPage === i + 1 ? "bg-[#70b1ff] text-white" : ""
+            }`}
+          >
+            {i + 1}
+          </li>
+        );
+      }
+
+      // Display dots
+      pageNumbers.push(
         <li
-          key={i}
-          onClick={() => selectedPageHandler(i + 1)}
-          className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 h ${
-            currentPage === i + 1 ? "bg-[#70b1ff] text-white" : ""
+          key="dots"
+          className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
+            currentPage > 2 && currentPage < totalPage - 1
+              ? "bg-[#70b1ff] text-white"
+              : ""
           }`}
         >
-          {i + 1}
+          ...
         </li>
       );
-    });
+
+      // Display last pages
+      for (let i = totalPage - 2; i < totalPage; i++) {
+        pageNumbers.push(
+          <li
+            key={i}
+            onClick={() => setCurrentPage(i + 1)}
+            className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
+              currentPage === i + 1 ? "bg-[#70b1ff] text-white" : ""
+            }`}
+          >
+            {i + 1}
+          </li>
+        );
+      }
+
+      return pageNumbers;
+    }
   };
 
   return (
