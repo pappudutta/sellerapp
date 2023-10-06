@@ -65,12 +65,12 @@ const Header = () => {
       );
     });
     return (
-      <div className="w-full absolute top-9 left-0 bg-white pt-3 rounded-b-xl   ">
+      <div className="w-full absolute top-9 left-0 bg-white rounded-b-xl">
         {filteredCars.map(item => (
           <div
             onClick={() => handleSearch(item.brand)}
             key={item.id}
-            className="cursor-pointer pb-1 w-full px-4"
+            className="cursor-pointer w-full px-4 py-1"
           >
             {item.brand}
           </div>
@@ -89,9 +89,6 @@ const Header = () => {
         <div className="w-96 relative bg-white px-1 drop-shadow-md shadow-gray-50 rounded-2xl">
           <div className="flex">
             <input
-              type="search"
-              name="search"
-              id="search"
               value={searchedCars}
               onChange={e => handleSearchInputChange(e)}
               onKeyUp={e => handleKeyPress(e)}
