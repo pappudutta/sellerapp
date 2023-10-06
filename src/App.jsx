@@ -24,9 +24,9 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route path="/" element={<Home />}>
-              <Route path="/page/:currentPage" element={<CarsListPage />} />
-            </Route>
+            <Route path="/" element={<Home />} />
+
+            <Route path="/page/:currentPage" element={<CarsListPage />} />
           </Routes>
         </BrowserRouter>
       </div>
