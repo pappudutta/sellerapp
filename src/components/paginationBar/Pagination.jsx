@@ -2,6 +2,8 @@ import React from "react";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 
 const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
+  const totalPages = Math.ceil(totalPage);
+
   // Image carousel previous slide function
   const handlePrev = () => {
     if (currentPage === 1) return;
@@ -10,7 +12,7 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
 
   // Image carousel next slide function
   const handleNext = () => {
-    if (currentPage === totalPage) return;
+    if (currentPage === totalPages) return;
     setCurrentPage(prevPage => prevPage + 1);
   };
 
@@ -19,8 +21,8 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
     const maxPageToShow = 5;
 
     // Display all when pages less then 6 pages
-    if (totalPage <= maxPageToShow) {
-      return [...Array(totalPage)].map((item, i) => {
+    if (totalPages <= maxPageToShow) {
+      return [...Array(totalPages)].map((item, i) => {
         return (
           <li
             key={i}
@@ -43,7 +45,7 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
             key={i}
             onClick={() => setCurrentPage(i + 1)}
             className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
-              currentPage === i + 1 ? "bg-[#70b1ff] text-white" : ""
+              currentPage === i + 1 ? "bg-[#7fb6f9] text-white" : ""
             }`}
           >
             {i + 1}
@@ -56,8 +58,8 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
         <li
           key="dots"
           className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
-            currentPage > 2 && currentPage < totalPage - 1
-              ? "bg-[#70b1ff] text-white"
+            currentPage > 2 && currentPage < totalPages - 1
+              ? "bg-[#64aaff] text-white"
               : ""
           }`}
         >
@@ -66,13 +68,13 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
       );
 
       // Display last pages
-      for (let i = totalPage - 2; i < totalPage; i++) {
+      for (let i = totalPages - 2; i < totalPages; i++) {
         pageNumbers.push(
           <li
             key={i}
             onClick={() => setCurrentPage(i + 1)}
             className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
-              currentPage === i + 1 ? "bg-[#70b1ff] text-white" : ""
+              currentPage === i + 1 ? "bg-[#77b4ff] text-white" : ""
             }`}
           >
             {i + 1}
@@ -106,7 +108,9 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
             <li
               onClick={handleNext}
               className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-white bg-[#70b1ff]   drop-shadow-md  hover:bg-[#70b1ff] ${
-                currentPage === totalPage ? "opacity-50 cursor-not-allowed" : ""
+                currentPage === totalPages
+                  ? "opacity-50 cursor-not-allowed"
+                  : ""
               }`}
             >
               <BsArrowRight />
