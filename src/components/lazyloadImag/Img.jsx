@@ -7,7 +7,7 @@ const Img = ({ src, className }) => {
   return (
     <div>
       <LazyLoadImage
-        style={{ width: "100%", height: "230px" }}
+        // style={{ width: "100%", height: "auto" }}
         className={className || ""}
         alt="Car images"
         placeholderSrc={fallbackImg}

@@ -42,7 +42,7 @@ const Carousel = ({ images }) => {
 
           <Img
             src={images[currentIndex] || FallBackImg}
-            className="rounded-2xl w-full"
+            className="rounded-2xl bg-cover w-[380px] h-[240px]"
           />
 
           <div className="absolute bottom-4 left-[50%] translate-x-[-50%] flex gap-2 items-center z-10">

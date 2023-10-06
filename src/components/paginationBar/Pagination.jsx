@@ -27,8 +27,10 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
           <li
             key={i}
             onClick={() => selectedPageHandler(i + 1)}
-            className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 h ${
-              currentPage === i + 1 ? "bg-[#73b0fa] text-white" : ""
+            className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl drop-shadow-md hover:bg-blue-300 h ${
+              currentPage === i + 1
+                ? "bg-[#7ab5fe] text-white"
+                : "bg-white text-black"
             }`}
           >
             {i + 1}
@@ -44,8 +46,10 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
           <li
             key={i}
             onClick={() => setCurrentPage(i + 1)}
-            className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
-              currentPage === i + 1 ? "bg-[#7fb6f9] text-white" : ""
+            className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl drop-shadow-md hover:bg-blue-300 ${
+              currentPage === i + 1
+                ? "bg-[#7ab5fe] text-white"
+                : "bg-white text-black"
             }`}
           >
             {i + 1}
@@ -57,10 +61,10 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
       pageNumbers.push(
         <li
           key="dots"
-          className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
+          className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl drop-shadow-md hover:bg-blue-300 ${
             currentPage > 2 && currentPage < totalPages - 1
-              ? "bg-[#75b0f9] text-white"
-              : ""
+              ? "bg-[#7ab5fe] text-white"
+              : "bg-white text-black"
           }`}
         >
           ...
@@ -73,8 +77,10 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
           <li
             key={i}
             onClick={() => setCurrentPage(i + 1)}
-            className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
-              currentPage === i + 1 ? "bg-[#79b5fd] text-white" : ""
+            className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl drop-shadow-md hover:bg-blue-300 ${
+              currentPage === i + 1
+                ? "bg-[#7ab5fe] text-white"
+                : "bg-white text-black"
             }`}
           >
             {i + 1}
