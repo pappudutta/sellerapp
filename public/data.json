@@ -21,7 +21,7 @@
     "year": 2021,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/44.jpeg", "/src/assets/carsImg/15.jpeg", "/src/assets/carsImg/26.jpeg"]
+    "image": ["/carsImg/44.jpeg", "/carsImg/15.jpeg", "/carsImg/26.jpeg"]
 
 
   },
@@ -35,7 +35,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/7.jpeg", "/src/assets/carsImg/8.jpeg", "/src/assets/carsImg/9.jpeg"]
+    "image": ["/carsImg/7.jpeg", "/carsImg/8.jpeg", "/carsImg/9.jpeg"]
 
   },
   {
@@ -48,7 +48,7 @@
     "year": 2022,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/10.jpeg", "/src/assets/carsImg/11.jpeg", "/src/assets/carsImg/12.jpeg"]
+    "image": ["/carsImg/10.jpeg", "/carsImg/11.jpeg", "/carsImg/12.jpeg"]
 
   },
   {
@@ -61,7 +61,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/13.jpeg", "/src/assets/carsImg/14.jpeg", "/src/assets/carsImg/15.jpeg"]
+    "image": ["/carsImg/13.jpeg", "/carsImg/14.jpeg", "/carsImg/15.jpeg"]
   },
   {
     "id": "006",
@@ -73,7 +73,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/16.jpeg", "/src/assets/carsImg/17.jpeg", "/src/assets/asset/car8.jpeg"]
+    "image": ["/carsImg/16.jpeg", "/carsImg/17.jpeg", "/asset/car8.jpeg"]
 
   },
   {
@@ -86,7 +86,7 @@
     "year": 2019,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/19.jpeg", "/src/assets/carsImg/20.jpeg", "/src/assets/carsImg/21.jpeg"]
+    "image": ["/carsImg/19.jpeg", "/carsImg/20.jpeg", "/carsImg/21.jpeg"]
 
   },
   {
@@ -99,7 +99,7 @@
     "year": 2022,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/22.jpeg", "/src/assets/carsImg/23.jpeg", "/src/assets/carsImg/24.jpeg"]
+    "image": ["/carsImg/22.jpeg", "/carsImg/23.jpeg", "/carsImg/24.jpeg"]
 
   },
   {
@@ -112,7 +112,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/25.jpeg", "/src/assets/carsImg/26.jpeg", "/src/assets/carsImg/27.jpeg"]
+    "image": ["/carsImg/25.jpeg", "/carsImg/26.jpeg", "/carsImg/27.jpeg"]
 
   },
   {
@@ -125,7 +125,7 @@
     "year": 2021,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/28.jpeg", "/src/assets/carsImg/29.jpeg", "/src/assets/carsImg/30.jpeg"]
+    "image": ["/carsImg/28.jpeg", "/carsImg/29.jpeg", "/carsImg/30.jpeg"]
 
   },
   {
@@ -138,7 +138,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/31.jpeg", "/src/assets/carsImg/32.jpeg", "/src/assets/carsImg/33.jpeg"]
+    "image": ["/carsImg/31.jpeg", "/carsImg/32.jpeg", "/carsImg/33.jpeg"]
 
   },
   {
@@ -151,7 +151,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/34.jpeg", "/src/assets/carsImg/35.jpeg", "/src/assets/carsImg/36.jpeg"]
+    "image": ["/carsImg/34.jpeg", "/carsImg/35.jpeg", "/carsImg/36.jpeg"]
 
   },
   {
@@ -164,7 +164,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/37.jpeg", "/src/assets/carsImg/38.jpeg", "/src/assets/carsImg/39.jpeg"]
+    "image": ["/carsImg/37.jpeg", "/carsImg/38.jpeg", "/carsImg/39.jpeg"]
 
   },
   {
@@ -177,7 +177,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/37.jpeg", "/src/assets/carsImg/38.jpeg", "/src/assets/carsImg/39.jpeg"]
+    "image": ["/carsImg/37.jpeg", "/carsImg/38.jpeg", "/carsImg/39.jpeg"]
 
   },
   {
@@ -190,7 +190,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/40.jpeg", "/src/assets/carsImg/41.jpeg", "/src/assets/carsImg/42.jpeg"]
+    "image": ["/carsImg/40.jpeg", "/carsImg/41.jpeg", "/carsImg/42.jpeg"]
 
   },
   {
@@ -203,7 +203,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/43.jpeg", "/src/assets/carsImg/44.jpeg", "/src/assets/carsImg/45.jpeg"]
+    "image": ["/carsImg/43.jpeg", "/carsImg/44.jpeg", "/carsImg/45.jpeg"]
 
   },
   {
@@ -216,7 +216,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/46.jpeg", "/src/assets/carsImg/47.jpeg", "/src/assets/carsImg/48.jpeg"]
+    "image": ["/carsImg/46.jpeg", "/carsImg/47.jpeg", "/carsImg/48.jpeg"]
 
   },
   {
@@ -229,7 +229,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/car1.jpeg", "/src/assets/carsImg/car2.jpeg", "/src/assets/carsImg/car3.jpeg"]
+    "image": ["/carsImg/car1.jpeg", "/carsImg/car2.jpeg", "/carsImg/car3.jpeg"]
 
   },
   {
@@ -242,7 +242,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car4.jpeg", "/src/assets/carsImg/car5.jpeg", "/src/assets/carsImg/car6.jpeg"]
+    "image": ["/carsImg/car4.jpeg", "/carsImg/car5.jpeg", "/carsImg/car6.jpeg"]
     
 
   },
@@ -256,7 +256,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car7.jpeg", "/src/assets/carsImg/car8.jpeg", "/src/assets/carsImg/car9.jpeg"]
+    "image": ["/carsImg/car7.jpeg", "/carsImg/car8.jpeg", "/carsImg/car9.jpeg"]
     
 
   },
@@ -270,7 +270,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car10.jpeg", "/src/assets/carsImg/car11.jpeg", "/src/assets/carsImg/car12.jpeg"]
+    "image": ["/carsImg/car10.jpeg", "/carsImg/car11.jpeg", "/carsImg/car12.jpeg"]
     
 
   },
@@ -284,7 +284,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car13.jpeg", "/src/assets/carsImg/car14.jpeg", "/src/assets/carsImg/car15.jpeg"]
+    "image": ["/carsImg/car13.jpeg", "/carsImg/car14.jpeg", "/carsImg/car15.jpeg"]
     
 
   },
@@ -298,7 +298,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/car16.jpeg", "/src/assets/carsImg/car7.jpeg", "/src/assets/carsImg/car18.jpeg"]
+    "image": ["/carsImg/car16.jpeg", "/carsImg/car7.jpeg", "/carsImg/car18.jpeg"]
     
 
   },
@@ -312,7 +312,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car19.jpeg", "/src/assets/carsImg/car20.jpeg", "/src/assets/carsImg/car21.jpeg"]
+    "image": ["/carsImg/car19.jpeg", "/carsImg/car20.jpeg", "/carsImg/car21.jpeg"]
     
 
   },
@@ -326,7 +326,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car22.jpeg", "/src/assets/carsImg/car23.jpeg", "/src/assets/carsImg/car24.jpeg"]
+    "image": ["/carsImg/car22.jpeg", "/carsImg/car23.jpeg", "/carsImg/car24.jpeg"]
     
 
   },
@@ -340,7 +340,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car25.jpeg", "/src/assets/carsImg/car26.jpeg", "/src/assets/carsImg/car37.jpeg"]
+    "image": ["/carsImg/car25.jpeg", "/carsImg/car26.jpeg", "/carsImg/car37.jpeg"]
     
 
   },
@@ -354,7 +354,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/car28.jpeg", "/src/assets/carsImg/car29.jpeg", "/src/assets/carsImg/car27.jpeg"]
+    "image": ["/carsImg/car28.jpeg", "/carsImg/car29.jpeg", "/carsImg/car27.jpeg"]
     
 
   },
@@ -368,7 +368,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car30.jpeg", "/src/assets/carsImg/car31.jpeg", "/src/assets/carsImg/car32.jpeg"]
+    "image": ["/carsImg/car30.jpeg", "/carsImg/car31.jpeg", "/carsImg/car32.jpeg"]
     
 
   },
@@ -382,7 +382,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car33.jpeg", "/src/assets/carsImg/car34.jpeg", "/src/assets/carsImg/car35.jpeg"]
+    "image": ["/carsImg/car33.jpeg", "/carsImg/car34.jpeg", "/carsImg/car35.jpeg"]
 
   },
   {
@@ -395,7 +395,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car36.jpeg", "/src/assets/carsImg/car37.jpeg", "/src/assets/carsImg/car38.jpeg"]
+    "image": ["/carsImg/car36.jpeg", "/carsImg/car37.jpeg", "/carsImg/car38.jpeg"]
     
 
   },
@@ -409,7 +409,7 @@
     "year": 2022,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car39.jpeg", "/src/assets/carsImg/car40.jpeg", "/src/assets/carsImg/car41.jpeg"]
+    "image": ["/carsImg/car39.jpeg", "/carsImg/car40.jpeg", "/carsImg/car41.jpeg"]
     
 
   },
@@ -423,7 +423,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car41.jpeg", "/src/assets/carsImg/car42.jpeg", "/src/assets/carsImg/car43.jpeg"]
+    "image": ["/carsImg/car41.jpeg", "/carsImg/car42.jpeg", "/carsImg/car43.jpeg"]
     
 
   },
@@ -437,7 +437,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car44.jpeg", "/src/assets/carsImg/car45.jpeg", "/src/assets/carsImg/car46.jpeg"]
+    "image": ["/carsImg/car44.jpeg", "/carsImg/car45.jpeg", "/carsImg/car46.jpeg"]
     
 
   },
@@ -451,7 +451,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/car47.jpeg", "/src/assets/carsImg/car1.jpeg", "/src/assets/carsImg/car8.jpeg"]
+    "image": ["/carsImg/car47.jpeg", "/carsImg/car1.jpeg", "/carsImg/car8.jpeg"]
     
 
   },
@@ -465,7 +465,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car5.jpeg", "/src/assets/carsImg/car4.jpeg", "/src/assets/carsImg/car7.jpeg"]
+    "image": ["/carsImg/car5.jpeg", "/carsImg/car4.jpeg", "/carsImg/car7.jpeg"]
     
 
   },
@@ -479,7 +479,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/1.jpeg", "/src/assets/carsImg/2.jpeg", "/src/assets/carsImg/3.jpeg"]
+    "image": ["/carsImg/1.jpeg", "/carsImg/2.jpeg", "/carsImg/3.jpeg"]
   },
   {
     "id": "002",
@@ -491,7 +491,7 @@
     "year": 2021,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/44.jpeg", "/src/assets/carsImg/15.jpeg", "/src/assets/carsImg/26.jpeg"]
+    "image": ["/carsImg/44.jpeg", "/carsImg/15.jpeg", "/carsImg/26.jpeg"]
 
 
   },
@@ -505,7 +505,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/7.jpeg", "/src/assets/carsImg/8.jpeg", "/src/assets/carsImg/9.jpeg"]
+    "image": ["/carsImg/7.jpeg", "/carsImg/8.jpeg", "/carsImg/9.jpeg"]
 
   },
   {
@@ -518,7 +518,7 @@
     "year": 2022,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/10.jpeg", "/src/assets/carsImg/11.jpeg", "/src/assets/carsImg/12.jpeg"]
+    "image": ["/carsImg/10.jpeg", "/carsImg/11.jpeg", "/carsImg/12.jpeg"]
 
   },
   {
@@ -531,7 +531,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/13.jpeg", "/src/assets/carsImg/14.jpeg", "/src/assets/carsImg/15.jpeg"]
+    "image": ["/carsImg/13.jpeg", "/carsImg/14.jpeg", "/carsImg/15.jpeg"]
   },
   {
     "id": "006",
@@ -543,7 +543,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/16.jpeg", "/src/assets/carsImg/17.jpeg", "/src/assets/asset/car8.jpeg"]
+    "image": ["/carsImg/16.jpeg", "/carsImg/17.jpeg", "/asset/car8.jpeg"]
 
   },
   {
@@ -556,7 +556,7 @@
     "year": 2019,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/19.jpeg", "/src/assets/carsImg/20.jpeg", "/src/assets/carsImg/21.jpeg"]
+    "image": ["/carsImg/19.jpeg", "/carsImg/20.jpeg", "/carsImg/21.jpeg"]
 
   },
   {
@@ -569,7 +569,7 @@
     "year": 2022,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/22.jpeg", "/src/assets/carsImg/23.jpeg", "/src/assets/carsImg/24.jpeg"]
+    "image": ["/carsImg/22.jpeg", "/carsImg/23.jpeg", "/carsImg/24.jpeg"]
 
   },
   {
@@ -582,7 +582,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/25.jpeg", "/src/assets/carsImg/26.jpeg", "/src/assets/carsImg/27.jpeg"]
+    "image": ["/carsImg/25.jpeg", "/carsImg/26.jpeg", "/carsImg/27.jpeg"]
 
   },
   {
@@ -595,7 +595,7 @@
     "year": 2021,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/28.jpeg", "/src/assets/carsImg/29.jpeg", "/src/assets/carsImg/30.jpeg"]
+    "image": ["/carsImg/28.jpeg", "/carsImg/29.jpeg", "/carsImg/30.jpeg"]
 
   },
   {
@@ -608,7 +608,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/31.jpeg", "/src/assets/carsImg/32.jpeg", "/src/assets/carsImg/33.jpeg"]
+    "image": ["/carsImg/31.jpeg", "/carsImg/32.jpeg", "/carsImg/33.jpeg"]
 
   },
   {
@@ -621,7 +621,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/34.jpeg", "/src/assets/carsImg/35.jpeg", "/src/assets/carsImg/36.jpeg"]
+    "image": ["/carsImg/34.jpeg", "/carsImg/35.jpeg", "/carsImg/36.jpeg"]
 
   },
   {
@@ -634,7 +634,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/37.jpeg", "/src/assets/carsImg/38.jpeg", "/src/assets/carsImg/39.jpeg"]
+    "image": ["/carsImg/37.jpeg", "/carsImg/38.jpeg", "/carsImg/39.jpeg"]
 
   },
   {
@@ -647,7 +647,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/37.jpeg", "/src/assets/carsImg/38.jpeg", "/src/assets/carsImg/39.jpeg"]
+    "image": ["/carsImg/37.jpeg", "/carsImg/38.jpeg", "/carsImg/39.jpeg"]
 
   },
   {
@@ -660,7 +660,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/40.jpeg", "/src/assets/carsImg/41.jpeg", "/src/assets/carsImg/42.jpeg"]
+    "image": ["/carsImg/40.jpeg", "/carsImg/41.jpeg", "/carsImg/42.jpeg"]
 
   },
   {
@@ -673,7 +673,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/43.jpeg", "/src/assets/carsImg/44.jpeg", "/src/assets/carsImg/45.jpeg"]
+    "image": ["/carsImg/43.jpeg", "/carsImg/44.jpeg", "/carsImg/45.jpeg"]
 
   },
   {
@@ -686,7 +686,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/46.jpeg", "/src/assets/carsImg/47.jpeg", "/src/assets/carsImg/48.jpeg"]
+    "image": ["/carsImg/46.jpeg", "/carsImg/47.jpeg", "/carsImg/48.jpeg"]
 
   },
   {
@@ -699,7 +699,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/car1.jpeg", "/src/assets/carsImg/car2.jpeg", "/src/assets/carsImg/car3.jpeg"]
+    "image": ["/carsImg/car1.jpeg", "/carsImg/car2.jpeg", "/carsImg/car3.jpeg"]
 
   },
   {
@@ -712,7 +712,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car4.jpeg", "/src/assets/carsImg/car5.jpeg", "/src/assets/carsImg/car6.jpeg"]
+    "image": ["/carsImg/car4.jpeg", "/carsImg/car5.jpeg", "/carsImg/car6.jpeg"]
     
 
   },
@@ -726,7 +726,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car7.jpeg", "/src/assets/carsImg/car8.jpeg", "/src/assets/carsImg/car9.jpeg"]
+    "image": ["/carsImg/car7.jpeg", "/carsImg/car8.jpeg", "/carsImg/car9.jpeg"]
     
 
   },
@@ -740,7 +740,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car10.jpeg", "/src/assets/carsImg/car11.jpeg", "/src/assets/carsImg/car12.jpeg"]
+    "image": ["/carsImg/car10.jpeg", "/carsImg/car11.jpeg", "/carsImg/car12.jpeg"]
     
 
   },
@@ -754,7 +754,7 @@
     "year": 2019,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car13.jpeg", "/src/assets/carsImg/car14.jpeg", "/src/assets/carsImg/car15.jpeg"]
+    "image": ["/carsImg/car13.jpeg", "/carsImg/car14.jpeg", "/carsImg/car15.jpeg"]
     
 
   },
@@ -768,7 +768,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/car16.jpeg", "/src/assets/carsImg/car7.jpeg", "/src/assets/carsImg/car18.jpeg"]
+    "image": ["/carsImg/car16.jpeg", "/carsImg/car7.jpeg", "/carsImg/car18.jpeg"]
     
 
   },
@@ -782,7 +782,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car19.jpeg", "/src/assets/carsImg/car20.jpeg", "/src/assets/carsImg/car21.jpeg"]
+    "image": ["/carsImg/car19.jpeg", "/carsImg/car20.jpeg", "/carsImg/car21.jpeg"]
     
 
   },
@@ -796,7 +796,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car22.jpeg", "/src/assets/carsImg/car23.jpeg", "/src/assets/carsImg/car24.jpeg"]
+    "image": ["/carsImg/car22.jpeg", "/carsImg/car23.jpeg", "/carsImg/car24.jpeg"]
     
 
   },
@@ -810,7 +810,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car25.jpeg", "/src/assets/carsImg/car26.jpeg", "/src/assets/carsImg/car37.jpeg"]
+    "image": ["/carsImg/car25.jpeg", "/carsImg/car26.jpeg", "/carsImg/car37.jpeg"]
     
 
   },
@@ -824,7 +824,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/car28.jpeg", "/src/assets/carsImg/car29.jpeg", "/src/assets/carsImg/car27.jpeg"]
+    "image": ["/carsImg/car28.jpeg", "/carsImg/car29.jpeg", "/carsImg/car27.jpeg"]
     
 
   },
@@ -838,7 +838,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car30.jpeg", "/src/assets/carsImg/car31.jpeg", "/src/assets/carsImg/car32.jpeg"]
+    "image": ["/carsImg/car30.jpeg", "/carsImg/car31.jpeg", "/carsImg/car32.jpeg"]
     
 
   },
@@ -852,7 +852,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car33.jpeg", "/src/assets/carsImg/car34.jpeg", "/src/assets/carsImg/car35.jpeg"]
+    "image": ["/carsImg/car33.jpeg", "/carsImg/car34.jpeg", "/carsImg/car35.jpeg"]
 
   },
   {
@@ -865,7 +865,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car36.jpeg", "/src/assets/carsImg/car37.jpeg", "/src/assets/carsImg/car38.jpeg"]
+    "image": ["/carsImg/car36.jpeg", "/carsImg/car37.jpeg", "/carsImg/car38.jpeg"]
     
 
   },
@@ -879,7 +879,7 @@
     "year": 2022,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car39.jpeg", "/src/assets/carsImg/car40.jpeg", "/src/assets/carsImg/car41.jpeg"]
+    "image": ["/carsImg/car39.jpeg", "/carsImg/car40.jpeg", "/carsImg/car41.jpeg"]
     
 
   },
@@ -893,7 +893,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car41.jpeg", "/src/assets/carsImg/car42.jpeg", "/src/assets/carsImg/car43.jpeg"]
+    "image": ["/carsImg/car41.jpeg", "/carsImg/car42.jpeg", "/carsImg/car43.jpeg"]
     
 
   },
@@ -907,7 +907,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car44.jpeg", "/src/assets/carsImg/car45.jpeg", "/src/assets/carsImg/car46.jpeg"]
+    "image": ["/carsImg/car44.jpeg", "/carsImg/car45.jpeg", "/carsImg/car46.jpeg"]
     
 
   },
@@ -921,7 +921,7 @@
     "year": 2022,
     "mode": "Manual",
     "like": false,
-    "image": ["/src/assets/carsImg/car47.jpeg", "/src/assets/carsImg/car1.jpeg", "/src/assets/carsImg/car8.jpeg"]
+    "image": ["/carsImg/car47.jpeg", "/carsImg/car1.jpeg", "/carsImg/car8.jpeg"]
     
 
   },
@@ -935,7 +935,7 @@
     "year": 2020,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car5.jpeg", "/src/assets/carsImg/car4.jpeg", "/src/assets/carsImg/car7.jpeg"]
+    "image": ["/carsImg/car5.jpeg", "/carsImg/car4.jpeg", "/carsImg/car7.jpeg"]
     
 
   },
@@ -949,7 +949,7 @@
     "year": 2021,
     "mode": "Automatic",
     "like": false,
-    "image": ["/src/assets/carsImg/car25.jpeg", "/src/assets/carsImg/car21.jpeg", "/src/assets/carsImg/car30.jpeg"]
+    "image": ["/carsImg/car25.jpeg", "/carsImg/car21.jpeg", "/carsImg/car30.jpeg"]
     
 
   }
