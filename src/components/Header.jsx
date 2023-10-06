@@ -17,15 +17,17 @@ const Header = () => {
     const value = event.target.value;
     setSearchedCars(value);
 
-    if (value === "") {
+    if (!value) {
       dispatch(getSearchedData(carsData));
     }
   };
 
   // handle enter key press
   const handleKeyPress = event => {
-    if (event.key === "Enter") {
-      return handleSearch();
+    if (event.target.value !== "") {
+      if (event.key === "Enter") {
+        return handleSearch();
+      }
     }
   };
 
