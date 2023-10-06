@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import { BiChevronDown } from "react-icons/bi";
 import { useDispatch, useSelector } from "react-redux";
@@ -9,6 +9,8 @@ const Header = () => {
   const { carsData } = useSelector(state => state.home);
 
   const [searchedCars, setSearchedCars] = useState("");
+
+  const inputRef = useRef(null);
 
   // on input value change data store to redux store
   const handleSearchInputChange = event => {
@@ -45,11 +47,13 @@ const Header = () => {
     dispatch(getSearchedData(searchCarsData));
   };
 
+  // data render on inputs data in search box
   const renderSearchResults = () => {
     if (!searchedCars) {
       return null;
     }
 
+    // filter data based on input
     const filteredCars = carsData.filter(item => {
       const searchTerm = searchedCars.toLowerCase();
       const brandName = item.brand.toLowerCase();
@@ -75,6 +79,10 @@ const Header = () => {
     );
   };
 
+  useEffect(() => {
+    inputRef.current.focus();
+  }, [handleSearch]);
+
   return (
     <div className="navbar mt-2 mx-auto sticky top-1 mb-10 z-50">
       <div className="w-full flex gap-10 px-5 py-4 drop-shadow-md shadow-gray-50 bg-blue-50 border border-white rounded-2xl">
@@ -87,6 +95,7 @@ const Header = () => {
               value={searchedCars}
               onChange={e => handleSearchInputChange(e)}
               onKeyUp={e => handleKeyPress(e)}
+              ref={inputRef}
               placeholder="Search..."
               className="w-full border-none bg-transparent pl-4 text-gray-950 outline-none focus:outline-0"
             />
