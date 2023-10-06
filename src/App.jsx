@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import CarsListPage from "./pages/carsListPage";
 import Header from "./components/Header";
 import "./App.css";
@@ -21,14 +21,13 @@ function App() {
   return (
     <div className="w-full">
       <div className="max-w-[1200px] mx-auto p-3">
-        <BrowserRouter>
+        <Router>
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-
             <Route path="/page/:currentPage" element={<CarsListPage />} />
           </Routes>
-        </BrowserRouter>
+        </Router>
       </div>
     </div>
   );
