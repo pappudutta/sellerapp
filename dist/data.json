@@ -1,0 +1,957 @@
+[
+  {
+    "id": "001",
+    "brand": "Toyota",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "6.5",
+    "rentPrice": "350",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/1.jpeg", "/src/assets/carsImg/2.jpeg", "/src/assets/carsImg/3.jpeg"]
+  },
+  {
+    "id": "002",
+    "brand": "Honda",
+    "capacity": "4",
+    "fuelType": "Petrol",
+    "mileage": "7.2",
+    "rentPrice": "320",
+    "year": 2021,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/44.jpeg", "/src/assets/carsImg/15.jpeg", "/src/assets/carsImg/26.jpeg"]
+
+
+  },
+  {
+    "id": "003",
+    "brand": "Ford",
+    "capacity": "5",
+    "fuelType": "Diesel",
+    "mileage": "8.0",
+    "rentPrice": "400",
+    "year": 2019,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/7.jpeg", "/src/assets/carsImg/8.jpeg", "/src/assets/carsImg/9.jpeg"]
+
+  },
+  {
+    "id": "004",
+    "brand": "Chevrolet",
+    "capacity": "4",
+    "fuelType": "Gasoline",
+    "mileage": "6.8",
+    "rentPrice": "330",
+    "year": 2022,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/10.jpeg", "/src/assets/carsImg/11.jpeg", "/src/assets/carsImg/12.jpeg"]
+
+  },
+  {
+    "id": "005",
+    "brand": "Volkswagen",
+    "capacity": "5",
+    "fuelType": "Hybrid",
+    "mileage": "7.5",
+    "rentPrice": "360",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/13.jpeg", "/src/assets/carsImg/14.jpeg", "/src/assets/carsImg/15.jpeg"]
+  },
+  {
+    "id": "006",
+    "brand": "Nissan",
+    "capacity": "4",
+    "fuelType": "Electric",
+    "mileage": "4.0",
+    "rentPrice": "300",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/16.jpeg", "/src/assets/carsImg/17.jpeg", "/src/assets/asset/car8.jpeg"]
+
+  },
+  {
+    "id": "007",
+    "brand": "Kia",
+    "capacity": "5",
+    "fuelType": "Diesel",
+    "mileage": "7.8",
+    "rentPrice": "370",
+    "year": 2019,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/19.jpeg", "/src/assets/carsImg/20.jpeg", "/src/assets/carsImg/21.jpeg"]
+
+  },
+  {
+    "id": "008",
+    "brand": "Hyundai",
+    "capacity": "4",
+    "fuelType": "Gasoline",
+    "mileage": "7.0",
+    "rentPrice": "340",
+    "year": 2022,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/22.jpeg", "/src/assets/carsImg/23.jpeg", "/src/assets/carsImg/24.jpeg"]
+
+  },
+  {
+    "id": "009",
+    "brand": "Mazda",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "6.5",
+    "rentPrice": "350",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/25.jpeg", "/src/assets/carsImg/26.jpeg", "/src/assets/carsImg/27.jpeg"]
+
+  },
+  {
+    "id": "010",
+    "brand": "Subaru",
+    "capacity": "5",
+    "fuelType": "Electric",
+    "mileage": "4.2",
+    "rentPrice": "310",
+    "year": 2021,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/28.jpeg", "/src/assets/carsImg/29.jpeg", "/src/assets/carsImg/30.jpeg"]
+
+  },
+  {
+    "id": "011",
+    "brand": "Audi",
+    "capacity": "4",
+    "fuelType": "Diesel",
+    "mileage": "7.5",
+    "rentPrice": "380",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/31.jpeg", "/src/assets/carsImg/32.jpeg", "/src/assets/carsImg/33.jpeg"]
+
+  },
+  {
+    "id": "012",
+    "brand": "BMW",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "8.2",
+    "rentPrice": "420",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/34.jpeg", "/src/assets/carsImg/35.jpeg", "/src/assets/carsImg/36.jpeg"]
+
+  },
+  {
+    "id": "013",
+    "brand": "Mercedes-Benz",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "6.7",
+    "rentPrice": "360",
+    "year": 2019,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/37.jpeg", "/src/assets/carsImg/38.jpeg", "/src/assets/carsImg/39.jpeg"]
+
+  },
+  {
+    "id": "014",
+    "brand": "Volvo",
+    "capacity": "5",
+    "fuelType": "Diesel",
+    "mileage": "7.0",
+    "rentPrice": "370",
+    "year": 2022,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/37.jpeg", "/src/assets/carsImg/38.jpeg", "/src/assets/carsImg/39.jpeg"]
+
+  },
+  {
+    "id": "015",
+    "brand": "Lexus",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "6.3",
+    "rentPrice": "350",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/40.jpeg", "/src/assets/carsImg/41.jpeg", "/src/assets/carsImg/42.jpeg"]
+
+  },
+  {
+    "id": "016",
+    "brand": "Tesla",
+    "capacity": "4",
+    "fuelType": "Electric",
+    "mileage": "4.5",
+    "rentPrice": "310",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/43.jpeg", "/src/assets/carsImg/44.jpeg", "/src/assets/carsImg/45.jpeg"]
+
+  },
+  {
+    "id": "017",
+    "brand": "Jaguar",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "8.5",
+    "rentPrice": "430",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/46.jpeg", "/src/assets/carsImg/47.jpeg", "/src/assets/carsImg/48.jpeg"]
+
+  },
+  {
+    "id": "018",
+    "brand": "Land Rover",
+    "capacity": "5",
+    "fuelType": "Diesel",
+    "mileage": "7.2",
+    "rentPrice": "390",
+    "year": 2022,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/car1.jpeg", "/src/assets/carsImg/car2.jpeg", "/src/assets/carsImg/car3.jpeg"]
+
+  },
+  {
+    "id": "019",
+    "brand": "Porsche",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "9.0",
+    "rentPrice": "450",
+    "year": 2019,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car4.jpeg", "/src/assets/carsImg/car5.jpeg", "/src/assets/carsImg/car6.jpeg"]
+    
+
+  },
+  {
+    "id": "020",
+    "brand": "Ferrari",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "7.8",
+    "rentPrice": "420",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car7.jpeg", "/src/assets/carsImg/car8.jpeg", "/src/assets/carsImg/car9.jpeg"]
+    
+
+  },
+  {
+    "id": "021",
+    "brand": "Maserati",
+    "capacity": "4",
+    "fuelType": "Gasoline",
+    "mileage": "8.3",
+    "rentPrice": "430",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car10.jpeg", "/src/assets/carsImg/car11.jpeg", "/src/assets/carsImg/car12.jpeg"]
+    
+
+  },
+  {
+    "id": "022",
+    "brand": "Rolls-Royce",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "6.0",
+    "rentPrice": "480",
+    "year": 2019,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car13.jpeg", "/src/assets/carsImg/car14.jpeg", "/src/assets/carsImg/car15.jpeg"]
+    
+
+  },
+  {
+    "id": "023",
+    "brand": "Bentley",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "7.1",
+    "rentPrice": "460",
+    "year": 2022,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/car16.jpeg", "/src/assets/carsImg/car7.jpeg", "/src/assets/carsImg/car18.jpeg"]
+    
+
+  },
+  {
+    "id": "024",
+    "brand": "Aston Martin",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "8.6",
+    "rentPrice": "440",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car19.jpeg", "/src/assets/carsImg/car20.jpeg", "/src/assets/carsImg/car21.jpeg"]
+    
+
+  },
+  {
+    "id": "025",
+    "brand": "McLaren",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "7.4",
+    "rentPrice": "470",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car22.jpeg", "/src/assets/carsImg/car23.jpeg", "/src/assets/carsImg/car24.jpeg"]
+    
+
+  },
+  {
+    "id": "026",
+    "brand": "Bugatti",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "6.5",
+    "rentPrice": "490",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car25.jpeg", "/src/assets/carsImg/car26.jpeg", "/src/assets/carsImg/car37.jpeg"]
+    
+
+  },
+  {
+    "id": "027",
+    "brand": "Lamborghini",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "7.8",
+    "rentPrice": "470",
+    "year": 2022,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/car28.jpeg", "/src/assets/carsImg/car29.jpeg", "/src/assets/carsImg/car27.jpeg"]
+    
+
+  },
+  {
+    "id": "028",
+    "brand": "Lotus",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "8.2",
+    "rentPrice": "450",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car30.jpeg", "/src/assets/carsImg/car31.jpeg", "/src/assets/carsImg/car32.jpeg"]
+    
+
+  },
+  {
+    "id": "029",
+    "brand": "Alfa Romeo",
+    "capacity": "4",
+    "fuelType": "Gasoline",
+    "mileage": "7.0",
+    "rentPrice": "410",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car33.jpeg", "/src/assets/carsImg/car34.jpeg", "/src/assets/carsImg/car35.jpeg"]
+
+  },
+  {
+    "id": "030",
+    "brand": "Acura",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "7.5",
+    "rentPrice": "390",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car36.jpeg", "/src/assets/carsImg/car37.jpeg", "/src/assets/carsImg/car38.jpeg"]
+    
+
+  },
+  {
+    "id": "031",
+    "brand": "Toyota",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "5.8",
+    "rentPrice": "350",
+    "year": 2022,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car39.jpeg", "/src/assets/carsImg/car40.jpeg", "/src/assets/carsImg/car41.jpeg"]
+    
+
+  },
+  {
+    "id": "032",
+    "brand": "Nissan",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "6.2",
+    "rentPrice": "370",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car41.jpeg", "/src/assets/carsImg/car42.jpeg", "/src/assets/carsImg/car43.jpeg"]
+    
+
+  },
+  {
+    "id": "033",
+    "brand": "Honda",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "5.5",
+    "rentPrice": "360",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car44.jpeg", "/src/assets/carsImg/car45.jpeg", "/src/assets/carsImg/car46.jpeg"]
+    
+
+  },
+  {
+    "id": "034",
+    "brand": "Kia",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "6.1",
+    "rentPrice": "380",
+    "year": 2022,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/car47.jpeg", "/src/assets/carsImg/car1.jpeg", "/src/assets/carsImg/car8.jpeg"]
+    
+
+  },
+  {
+    "id": "035",
+    "brand": "Ford",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "5.7",
+    "rentPrice": "360",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car5.jpeg", "/src/assets/carsImg/car4.jpeg", "/src/assets/carsImg/car7.jpeg"]
+    
+
+  },
+  {
+    "id": "001",
+    "brand": "Toyota",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "6.5",
+    "rentPrice": "350",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/1.jpeg", "/src/assets/carsImg/2.jpeg", "/src/assets/carsImg/3.jpeg"]
+  },
+  {
+    "id": "002",
+    "brand": "Honda",
+    "capacity": "4",
+    "fuelType": "Petrol",
+    "mileage": "7.2",
+    "rentPrice": "320",
+    "year": 2021,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/44.jpeg", "/src/assets/carsImg/15.jpeg", "/src/assets/carsImg/26.jpeg"]
+
+
+  },
+  {
+    "id": "003",
+    "brand": "Ford",
+    "capacity": "5",
+    "fuelType": "Diesel",
+    "mileage": "8.0",
+    "rentPrice": "400",
+    "year": 2019,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/7.jpeg", "/src/assets/carsImg/8.jpeg", "/src/assets/carsImg/9.jpeg"]
+
+  },
+  {
+    "id": "004",
+    "brand": "Chevrolet",
+    "capacity": "4",
+    "fuelType": "Gasoline",
+    "mileage": "6.8",
+    "rentPrice": "330",
+    "year": 2022,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/10.jpeg", "/src/assets/carsImg/11.jpeg", "/src/assets/carsImg/12.jpeg"]
+
+  },
+  {
+    "id": "005",
+    "brand": "Volkswagen",
+    "capacity": "5",
+    "fuelType": "Hybrid",
+    "mileage": "7.5",
+    "rentPrice": "360",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/13.jpeg", "/src/assets/carsImg/14.jpeg", "/src/assets/carsImg/15.jpeg"]
+  },
+  {
+    "id": "006",
+    "brand": "Nissan",
+    "capacity": "4",
+    "fuelType": "Electric",
+    "mileage": "4.0",
+    "rentPrice": "300",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/16.jpeg", "/src/assets/carsImg/17.jpeg", "/src/assets/asset/car8.jpeg"]
+
+  },
+  {
+    "id": "007",
+    "brand": "Kia",
+    "capacity": "5",
+    "fuelType": "Diesel",
+    "mileage": "7.8",
+    "rentPrice": "370",
+    "year": 2019,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/19.jpeg", "/src/assets/carsImg/20.jpeg", "/src/assets/carsImg/21.jpeg"]
+
+  },
+  {
+    "id": "008",
+    "brand": "Hyundai",
+    "capacity": "4",
+    "fuelType": "Gasoline",
+    "mileage": "7.0",
+    "rentPrice": "340",
+    "year": 2022,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/22.jpeg", "/src/assets/carsImg/23.jpeg", "/src/assets/carsImg/24.jpeg"]
+
+  },
+  {
+    "id": "009",
+    "brand": "Mazda",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "6.5",
+    "rentPrice": "350",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/25.jpeg", "/src/assets/carsImg/26.jpeg", "/src/assets/carsImg/27.jpeg"]
+
+  },
+  {
+    "id": "010",
+    "brand": "Subaru",
+    "capacity": "5",
+    "fuelType": "Electric",
+    "mileage": "4.2",
+    "rentPrice": "310",
+    "year": 2021,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/28.jpeg", "/src/assets/carsImg/29.jpeg", "/src/assets/carsImg/30.jpeg"]
+
+  },
+  {
+    "id": "011",
+    "brand": "Audi",
+    "capacity": "4",
+    "fuelType": "Diesel",
+    "mileage": "7.5",
+    "rentPrice": "380",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/31.jpeg", "/src/assets/carsImg/32.jpeg", "/src/assets/carsImg/33.jpeg"]
+
+  },
+  {
+    "id": "012",
+    "brand": "BMW",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "8.2",
+    "rentPrice": "420",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/34.jpeg", "/src/assets/carsImg/35.jpeg", "/src/assets/carsImg/36.jpeg"]
+
+  },
+  {
+    "id": "013",
+    "brand": "Mercedes-Benz",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "6.7",
+    "rentPrice": "360",
+    "year": 2019,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/37.jpeg", "/src/assets/carsImg/38.jpeg", "/src/assets/carsImg/39.jpeg"]
+
+  },
+  {
+    "id": "014",
+    "brand": "Volvo",
+    "capacity": "5",
+    "fuelType": "Diesel",
+    "mileage": "7.0",
+    "rentPrice": "370",
+    "year": 2022,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/37.jpeg", "/src/assets/carsImg/38.jpeg", "/src/assets/carsImg/39.jpeg"]
+
+  },
+  {
+    "id": "015",
+    "brand": "Lexus",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "6.3",
+    "rentPrice": "350",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/40.jpeg", "/src/assets/carsImg/41.jpeg", "/src/assets/carsImg/42.jpeg"]
+
+  },
+  {
+    "id": "016",
+    "brand": "Tesla",
+    "capacity": "4",
+    "fuelType": "Electric",
+    "mileage": "4.5",
+    "rentPrice": "310",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/43.jpeg", "/src/assets/carsImg/44.jpeg", "/src/assets/carsImg/45.jpeg"]
+
+  },
+  {
+    "id": "017",
+    "brand": "Jaguar",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "8.5",
+    "rentPrice": "430",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/46.jpeg", "/src/assets/carsImg/47.jpeg", "/src/assets/carsImg/48.jpeg"]
+
+  },
+  {
+    "id": "018",
+    "brand": "Land Rover",
+    "capacity": "5",
+    "fuelType": "Diesel",
+    "mileage": "7.2",
+    "rentPrice": "390",
+    "year": 2022,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/car1.jpeg", "/src/assets/carsImg/car2.jpeg", "/src/assets/carsImg/car3.jpeg"]
+
+  },
+  {
+    "id": "019",
+    "brand": "Porsche",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "9.0",
+    "rentPrice": "450",
+    "year": 2019,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car4.jpeg", "/src/assets/carsImg/car5.jpeg", "/src/assets/carsImg/car6.jpeg"]
+    
+
+  },
+  {
+    "id": "020",
+    "brand": "Ferrari",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "7.8",
+    "rentPrice": "420",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car7.jpeg", "/src/assets/carsImg/car8.jpeg", "/src/assets/carsImg/car9.jpeg"]
+    
+
+  },
+  {
+    "id": "021",
+    "brand": "Maserati",
+    "capacity": "4",
+    "fuelType": "Gasoline",
+    "mileage": "8.3",
+    "rentPrice": "430",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car10.jpeg", "/src/assets/carsImg/car11.jpeg", "/src/assets/carsImg/car12.jpeg"]
+    
+
+  },
+  {
+    "id": "022",
+    "brand": "Rolls-Royce",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "6.0",
+    "rentPrice": "480",
+    "year": 2019,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car13.jpeg", "/src/assets/carsImg/car14.jpeg", "/src/assets/carsImg/car15.jpeg"]
+    
+
+  },
+  {
+    "id": "023",
+    "brand": "Bentley",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "7.1",
+    "rentPrice": "460",
+    "year": 2022,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/car16.jpeg", "/src/assets/carsImg/car7.jpeg", "/src/assets/carsImg/car18.jpeg"]
+    
+
+  },
+  {
+    "id": "024",
+    "brand": "Aston Martin",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "8.6",
+    "rentPrice": "440",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car19.jpeg", "/src/assets/carsImg/car20.jpeg", "/src/assets/carsImg/car21.jpeg"]
+    
+
+  },
+  {
+    "id": "025",
+    "brand": "McLaren",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "7.4",
+    "rentPrice": "470",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car22.jpeg", "/src/assets/carsImg/car23.jpeg", "/src/assets/carsImg/car24.jpeg"]
+    
+
+  },
+  {
+    "id": "026",
+    "brand": "Bugatti",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "6.5",
+    "rentPrice": "490",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car25.jpeg", "/src/assets/carsImg/car26.jpeg", "/src/assets/carsImg/car37.jpeg"]
+    
+
+  },
+  {
+    "id": "027",
+    "brand": "Lamborghini",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "7.8",
+    "rentPrice": "470",
+    "year": 2022,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/car28.jpeg", "/src/assets/carsImg/car29.jpeg", "/src/assets/carsImg/car27.jpeg"]
+    
+
+  },
+  {
+    "id": "028",
+    "brand": "Lotus",
+    "capacity": "2",
+    "fuelType": "Gasoline",
+    "mileage": "8.2",
+    "rentPrice": "450",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car30.jpeg", "/src/assets/carsImg/car31.jpeg", "/src/assets/carsImg/car32.jpeg"]
+    
+
+  },
+  {
+    "id": "029",
+    "brand": "Alfa Romeo",
+    "capacity": "4",
+    "fuelType": "Gasoline",
+    "mileage": "7.0",
+    "rentPrice": "410",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car33.jpeg", "/src/assets/carsImg/car34.jpeg", "/src/assets/carsImg/car35.jpeg"]
+
+  },
+  {
+    "id": "030",
+    "brand": "Acura",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "7.5",
+    "rentPrice": "390",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car36.jpeg", "/src/assets/carsImg/car37.jpeg", "/src/assets/carsImg/car38.jpeg"]
+    
+
+  },
+  {
+    "id": "031",
+    "brand": "Toyota",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "5.8",
+    "rentPrice": "350",
+    "year": 2022,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car39.jpeg", "/src/assets/carsImg/car40.jpeg", "/src/assets/carsImg/car41.jpeg"]
+    
+
+  },
+  {
+    "id": "032",
+    "brand": "Nissan",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "6.2",
+    "rentPrice": "370",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car41.jpeg", "/src/assets/carsImg/car42.jpeg", "/src/assets/carsImg/car43.jpeg"]
+    
+
+  },
+  {
+    "id": "033",
+    "brand": "Honda",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "5.5",
+    "rentPrice": "360",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car44.jpeg", "/src/assets/carsImg/car45.jpeg", "/src/assets/carsImg/car46.jpeg"]
+    
+
+  },
+  {
+    "id": "034",
+    "brand": "Kia",
+    "capacity": "5",
+    "fuelType": "Gasoline",
+    "mileage": "6.1",
+    "rentPrice": "380",
+    "year": 2022,
+    "mode": "Manual",
+    "like": false,
+    "image": ["/src/assets/carsImg/car47.jpeg", "/src/assets/carsImg/car1.jpeg", "/src/assets/carsImg/car8.jpeg"]
+    
+
+  },
+  {
+    "id": "035",
+    "brand": "Ford",
+    "capacity": "4",
+    "fuelType": "Hybrid",
+    "mileage": "5.7",
+    "rentPrice": "360",
+    "year": 2020,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car5.jpeg", "/src/assets/carsImg/car4.jpeg", "/src/assets/carsImg/car7.jpeg"]
+    
+
+  },
+  {
+    "id": "036",
+    "brand": "Chevrolet",
+    "capacity": "4",
+    "fuelType": "Electric",
+    "mileage": "4.8",
+    "rentPrice": "310",
+    "year": 2021,
+    "mode": "Automatic",
+    "like": false,
+    "image": ["/src/assets/carsImg/car25.jpeg", "/src/assets/carsImg/car21.jpeg", "/src/assets/carsImg/car30.jpeg"]
+    
+
+  }
+]
+ 
