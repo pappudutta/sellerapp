@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Img from "../lazyloadImag/Img";
-import FallBackImg from "../../assets/car.jpg";
+
+import FallBackImg from "../../../public/car.jpg";
 import { BiSolidChevronRight, BiSolidChevronLeft } from "react-icons/bi";
 
 const Carousel = ({ images }) => {
