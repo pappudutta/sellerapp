@@ -1,25 +1,20 @@
 import React, { useState } from "react";
 import Img from "../lazyloadImag/Img";
 import FallBackImg from "../../assets/car.jpg";
-
 import { BiSolidChevronRight, BiSolidChevronLeft } from "react-icons/bi";
 
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
-    if (currentIndex === 0) {
-      setCurrentIndex(2);
-    } else {
-      setCurrentIndex(currentIndex - 1);
-    }
+    setCurrentIndex(prevIndex =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
   };
   const handleNext = () => {
-    if (currentIndex === 2) {
-      setCurrentIndex(0);
-    } else {
-      setCurrentIndex(currentIndex + 1);
-    }
+    setCurrentIndex(prevIndex =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
   };
 
   const handleCarousel = index => {
@@ -44,15 +39,13 @@ const Carousel = ({ images }) => {
             </div>
           </div>
 
-          {images.slice(currentIndex, currentIndex + 1).map((item, index) => (
-            <Img
-              key={index}
-              src={item || FallBackImg}
-              className="rounded-2xl w-full"
-            />
-          ))}
+          <Img
+            src={images[currentIndex] || FallBackImg}
+            className="rounded-2xl w-full"
+          />
+
           <div className="absolute bottom-4 left-[50%] translate-x-[-50%] flex gap-2 items-center z-10">
-            {[...Array(images.length)].map((item, index) => (
+            {images.map((_, index) => (
               <div
                 key={index}
                 onClick={() => handleCarousel(index)}
