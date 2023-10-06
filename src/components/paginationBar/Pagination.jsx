@@ -35,7 +35,7 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
                   key={i}
                   onClick={() => selectedPageHandler(i + 1)}
                   className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white border border-white drop-shadow-md hover:bg-gray-300 hover:border-gray-300 ${
-                    currentPage === i + 1 ? "bg-blue-300 border-blue-300" : ""
+                    currentPage === i + 1 ? "bg-[#86bcff] border-[#86bcff]" : ""
                   }`}
                 >
                   {i + 1}

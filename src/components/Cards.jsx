@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { LiaGasPumpSolid } from "react-icons/lia";
@@ -7,6 +7,7 @@ import { RiSteering2Fill } from "react-icons/ri";
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiFillHeart } from "react-icons/ai";
 import Carousel from "./imgCarousel/Carousel";
+import { useSelector } from "react-redux";
 
 const Cards = ({ item }) => {
   const {
@@ -21,10 +22,15 @@ const Cards = ({ item }) => {
     like,
   } = item;
 
-  const [isLike, setIsLike] = useState(like);
+  const { carsData } = useSelector(state => state.home);
+  console.log(
+    carsData.map(item => {
+      item.like;
+    })
+  );
 
-  const toggleLike = () => {
-    setIsLike(!isLike);
+  const handleLike = () => {
+    dispatch(getJsonData());
   };
 
   return (
@@ -80,10 +86,10 @@ const Cards = ({ item }) => {
               </div>
               <div className="flex items-center gap-3">
                 <span
-                  onClick={toggleLike}
+                  onClick={() => {}}
                   className="text-[21px] text-blue-400 bg-blue-100 rounded-lg p-1 cursor-pointer hover:opacity-80"
                 >
-                  {isLike ? <AiFillHeart /> : <AiOutlineHeart />}
+                  {like ? <AiFillHeart /> : <AiOutlineHeart />}
                 </span>
                 <button className="rounded-xl text-sm text-white bg-blue-400 py-[5px] px-3 hover:opacity-80">
                   Rent now
