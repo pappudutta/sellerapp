@@ -28,7 +28,7 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
             key={i}
             onClick={() => selectedPageHandler(i + 1)}
             className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 h ${
-              currentPage === i + 1 ? "bg-[#70b1ff] text-white" : ""
+              currentPage === i + 1 ? "bg-[#73b0fa] text-white" : ""
             }`}
           >
             {i + 1}
@@ -59,7 +59,7 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
           key="dots"
           className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
             currentPage > 2 && currentPage < totalPages - 1
-              ? "bg-[#64aaff] text-white"
+              ? "bg-[#75b0f9] text-white"
               : ""
           }`}
         >
@@ -74,7 +74,7 @@ const Pagination = ({ totalCars, currentPage, setCurrentPage, totalPage }) => {
             key={i}
             onClick={() => setCurrentPage(i + 1)}
             className={`flex items-center justify-center px-3 h-8 leading-tight cursor-pointer rounded-xl text-black bg-white  drop-shadow-md hover:bg-blue-300 ${
-              currentPage === i + 1 ? "bg-[#77b4ff] text-white" : ""
+              currentPage === i + 1 ? "bg-[#79b5fd] text-white" : ""
             }`}
           >
             {i + 1}
