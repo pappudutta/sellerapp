@@ -1,5 +1,7 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import fallbackImg from "../../../public/car.jpg";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Img = ({ src, className }) => {
   return (
@@ -8,8 +10,9 @@ const Img = ({ src, className }) => {
         style={{ width: "100%", height: "230px" }}
         className={className || ""}
         alt="Car images"
-        effect="blur"
+        placeholderSrc={fallbackImg}
         src={src}
+        effect="blur"
       />
     </div>
   );
