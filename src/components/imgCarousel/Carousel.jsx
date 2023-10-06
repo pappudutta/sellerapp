@@ -32,13 +32,13 @@ const Carousel = ({ images }) => {
           <div className="flex ml-10 text-white">
             <div
               onClick={handlePrev}
-              className="absolute text-xl left-2 top-[46%] cursor-pointer"
+              className="absolute text-xl left-2 top-[46%] cursor-pointer z-10"
             >
               <BiSolidChevronLeft />
             </div>
             <div
               onClick={handleNext}
-              className="absolute text-xl right-2 top-[46%] cursor-pointer"
+              className="absolute text-xl right-2 top-[46%] cursor-pointer z-10"
             >
               <BiSolidChevronRight />
             </div>
@@ -51,7 +51,7 @@ const Carousel = ({ images }) => {
               className="rounded-2xl w-full"
             />
           ))}
-          <div className="absolute bottom-4 left-[50%] translate-x-[-50%] flex gap-2 items-center">
+          <div className="absolute bottom-4 left-[50%] translate-x-[-50%] flex gap-2 items-center z-10">
             {[...Array(images.length)].map((item, index) => (
               <div
                 key={index}

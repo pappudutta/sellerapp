@@ -2,7 +2,7 @@ import React from "react";
 
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { LiaGasPumpSolid } from "react-icons/lia";
-import { GiLogging, GiSpeedometer } from "react-icons/gi";
+import { GiSpeedometer } from "react-icons/gi";
 import { RiSteering2Fill } from "react-icons/ri";
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiFillHeart } from "react-icons/ai";

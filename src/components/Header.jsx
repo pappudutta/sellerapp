@@ -11,17 +11,22 @@ const Header = () => {
 
   const [searchedCars, setSearchedCars] = useState("");
 
-  const handleSearch = event => {
+  const handleChange = event => {
+    event.preventDefault();
     const value = event.target.value;
+
     if (value === "") {
+      dispatch(getSearchedData(carsData));
     }
     setSearchedCars(value);
   };
 
   const onSearch = searchTerm => {
     setSearchedCars(searchTerm);
+
     let searchCarsData = [];
-    if (searchedCars === searchTerm) {
+
+    if (searchTerm !== "") {
       carsData.filter(item => {
         const searchTerm = searchedCars.toLocaleLowerCase();
         const brandName = item.brand.toLocaleLowerCase();
@@ -35,16 +40,16 @@ const Header = () => {
   };
 
   return (
-    <main className="navbar mt-2 mx-auto">
-      <nav className="w-full flex gap-10 px-5 py-4 drop-shadow-md shadow-gray-50 bg-blue-50 border border-white rounded-2xl">
-        <div className="w-96 relative bg-white px-1 rounded-2xl">
+    <div className="navbar mt-2 mx-auto sticky top-1 mb-10 z-50">
+      <div className="w-full flex gap-10 px-5 py-4 drop-shadow-md shadow-gray-50 bg-blue-50 border border-white rounded-2xl">
+        <div className="w-96 relative bg-white px-1 drop-shadow-md shadow-gray-50 rounded-2xl">
           <div className="flex">
             <input
               type="search"
               name="search"
               id="search"
               value={searchedCars}
-              onChange={handleSearch}
+              onChange={e => handleChange(e)}
               placeholder="Search..."
               className="w-full border-none bg-transparent pl-4 text-gray-950 outline-none focus:outline-0"
             />
@@ -56,7 +61,7 @@ const Header = () => {
             </button>
           </div>
           {searchedCars && (
-            <div className="w-full top-8 absolute left-0 pt-2 rounded ">
+            <div className="w-full absolute top-9 left-0 bg-white pt-3 rounded-b-xl   ">
               {carsData
                 .filter(item => {
                   const searchTerm = searchedCars.toLowerCase();
@@ -68,10 +73,8 @@ const Header = () => {
                     brandName !== searchTerm
                   );
                 })
-                .slice(0, 10)
                 .map(item => (
-                  <div key={item.id} className="bg-white w-full px-4 pt-2">
-                    <hr className="w-full mx-auto py-1" />
+                  <div key={item.id} className=" w-full px-4 pb-1">
                     <div
                       onClick={() => onSearch(item.brand)}
                       key={item.id}
@@ -97,8 +100,8 @@ const Header = () => {
             <BiChevronDown />
           </span>
         </div>
-      </nav>
-    </main>
+      </div>
+    </div>
   );
 };
 
